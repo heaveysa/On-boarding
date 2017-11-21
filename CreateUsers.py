@@ -67,18 +67,18 @@ def main():
     'name.givenName':g_name
     }
 
-    a =1
+
 
     Email = g_name + '.' + f_name + '@websummit.com'
 
     pEmail = {
-    'password' : "TheSummit2017",
+    'password' : "",
     'primaryEmail': Email,
     'name': {'familyName':f_name, 'givenName':g_name}
     }
 
     PW = {
-        'password' : "TheSummit2017" 
+        'password' : "" 
     }
 
     print(Email)
