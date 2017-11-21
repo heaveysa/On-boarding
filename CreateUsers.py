@@ -67,6 +67,8 @@ def main():
     'name.givenName':g_name
     }
 
+    a =1
+
     Email = g_name + '.' + f_name + '@websummit.com'
 
     pEmail = {
@@ -76,7 +78,7 @@ def main():
     }
 
     PW = {
-        'password' : "TheSummit2017"
+        'password' : "TheSummit2017" 
     }
 
     print(Email)
